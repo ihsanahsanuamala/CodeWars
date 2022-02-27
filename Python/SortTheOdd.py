@@ -12,4 +12,4 @@ data = [5, 3, 2, 8, 1, 4]
 testing = [el for el in data if el %2==1]
 odds = iter(sorted(el for el in data if el % 2))
 a = [next(odds) if el % 2 else el for el in data]
-print(testing)
+print(a)
