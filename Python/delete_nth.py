@@ -20,6 +20,11 @@ def delete_nth(order):
         print(k,v)    
 
 
+bil = [1,1,3,3,7,2,2,2,2]
 
+print(len(bil))
 # print(delete_nth([1,1,3,3,7,2,2,2,2]))
-delete_nth([1,1,3,3,7,2,2,2,2])
+# delete_nth([1,1,3,3,7,2,2,2,2])
+
+conSet = {2, 2, 3}
+print(conSet)
